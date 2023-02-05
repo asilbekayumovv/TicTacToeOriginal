@@ -17,9 +17,9 @@ class SplashScreen : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, SelectScreen::class.java)
+            val intent = Intent(this, Diffifulty::class.java)
             startActivity(intent)
             finish()
-        }, 4500)
+        }, 3000)
     }
 }
